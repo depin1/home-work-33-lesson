@@ -8,6 +8,7 @@ header h1 {
 
 header {
     text-align: center;
+    padding: 15px;
 }
 
 .input {
@@ -91,4 +92,11 @@ body {
 
 .input2 {
     padding: 5px;
+}
+
+@media (max-width:768px) {
+    .header_box {
+        flex-direction: column;
+        row-gap: 15px;
+    }
 }
